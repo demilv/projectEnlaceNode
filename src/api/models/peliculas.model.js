@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 
 const peliculasSchema = new Schema({
     name: {type:String, require: true},
-    releaseDate: {type:Date, require: false},
+    year: {type:Number, require: false},
     ratings:  {type:Number, require: false},
     }, {
         collection: "peliculas",

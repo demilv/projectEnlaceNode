@@ -1,3 +1,4 @@
+//Inicializacion de paqueres
 const express = require("express")
 const cors = require("cors")
 const dotenv = require("dotenv")
@@ -8,7 +9,7 @@ const {connect} = require("./src/utils/database")
 const routerMovie = require("./src/api/routes/movie.routes"); 
 const routerCine = require("./src/api/routes/cine.routes");
 
-
+//Conexion a la base de datos
 const app = express();
 connect(); 
 app.use(cors());

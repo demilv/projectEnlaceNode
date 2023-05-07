@@ -1,9 +1,9 @@
+//Listado de rutas de cines
+
 const express = require("express");
 const router = express.Router();
 
 const  {getAllCines, setNewCine, updateCine, deleteCine} = require("../controllers/cinemas.controller")
-
-//Listado de rutas de cines
 
 router.get("/", getAllCines)
 

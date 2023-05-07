@@ -1,6 +1,6 @@
 const Cinema = require("../models/cinemas.model");
 
-//Devuelve las salas de cine
+//Devuelve las salas de cine y peliculas relacionadas
 const getAllCines = async(req, res) =>{
     try{
         // const allCines = await Cinema.find();
